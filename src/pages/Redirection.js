@@ -9,7 +9,7 @@ const Redirection = () => {
       const redirect = () => {
         return setTimeout(() => {
           window.location.href = `https://advantage.moolchandhealthcare.com/service/f/${id}`;
-        }, 5000);
+        }, 100);
       };
       redirect();
     }
