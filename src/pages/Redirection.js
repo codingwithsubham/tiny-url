@@ -8,7 +8,7 @@ const Redirection = () => {
     if (id) {
       const redirect = () => {
         return setTimeout(() => {
-          window.location.href = `https://advantage.moolchandhealthcare.com/service/f/${id}`;
+          window.location.href = `https://eforms.moolchandhealthcare.com/service/f/${id}`;
         }, 100);
       };
       redirect();
